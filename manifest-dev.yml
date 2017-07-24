@@ -1,0 +1,9 @@
+--- 
+applications: 
+  - 
+    buildpack: java_buildpack_offline
+    memory: 1024M
+    name: spring-security
+    path: ./build/libs/SpringSecurity-0.0.1-SNAPSHOT.jar
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
